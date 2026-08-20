@@ -87,24 +87,23 @@ Environments: Permiten definir variables globales o específicas para diferentes
 18. Describe cómo implementarías una operación CRUD (Crear, Leer, Actualizar, Eliminar) en una API REST.
 
 Para implementar un CRUD en una API REST, utilizaría métodos HTTP asociados a cada operación:
-    Crear: POST /usuarios para registrar un nuevo usuario.
-    Leer: GET /usuarios para obtener todos, o GET /usuarios/{id} para uno específico.
-    Actualizar: PUT o PATCH /usuarios/{id} para modificar sus datos.
-    Eliminar: DELETE /usuarios/{id} para borrar un usuario.
+Crear: POST /usuarios para registrar un nuevo usuario.
+Leer: GET /usuarios para obtener todos, o GET /usuarios/{id} para uno específico.
+Actualizar: PUT o PATCH /usuarios/{id} para modificar sus datos.
+Eliminar: DELETE /usuarios/{id} para borrar un usuario.
 
 
 19. ¿Cómo usarías Postman para probar una nueva API que acabas de desarrollar?
 
 Usaría Postman para comprobar que cada endpoint de la API funciona correctamente:
-
-    Crear una colección con los endpoints de la API.
-    Probar POST para crear datos y verificar la respuesta.
-    Probar GET para consultar los datos creados.
-    Probar PUT/PATCH para modificarlos.
-    Probar DELETE para eliminarlos.
-    Revisar los códigos HTTP, respuestas JSON, headers y mensajes de error.
-    Probar también casos incorrectos, como datos faltantes o IDs inexistentes, para comprobar el manejo de errores.
-    Si la API requiere autenticación, configurar en Postman los tokens o credenciales correspondientes.
+Crear una colección con los endpoints de la API.
+Probar POST para crear datos y verificar la respuesta.
+Probar GET para consultar los datos creados.
+Probar PUT/PATCH para modificarlos.
+Probar DELETE para eliminarlos.
+Revisar los códigos HTTP, respuestas JSON, headers y mensajes de error.
+Probar también casos incorrectos, como datos faltantes o IDs inexistentes, para comprobar el manejo de errores.
+Si la API requiere autenticación, configurar en Postman los tokens o credenciales correspondientes.
 
 
 20. Propone un ejemplo de una API REST para gestionar un catálogo de productos y describe brevemente los endpoints necesarios.
