@@ -96,13 +96,13 @@ Eliminar: DELETE /usuarios/{id} para borrar un usuario.
 19. ¿Cómo usarías Postman para probar una nueva API que acabas de desarrollar?
 
 Usaría Postman para comprobar que cada endpoint de la API funciona correctamente:
-Crear una colección con los endpoints de la API.
-Probar POST para crear datos y verificar la respuesta.
-Probar GET para consultar los datos creados.
-Probar PUT/PATCH para modificarlos.
-Probar DELETE para eliminarlos.
-Revisar los códigos HTTP, respuestas JSON, headers y mensajes de error.
-Probar también casos incorrectos, como datos faltantes o IDs inexistentes, para comprobar el manejo de errores.
+- Crear una colección con los endpoints de la API.
+- Probar POST para crear datos y verificar la respuesta.
+- Probar GET para consultar los datos creados.
+- Probar PUT/PATCH para modificarlos.
+- Probar DELETE para eliminarlos.
+- Revisar los códigos HTTP, respuestas JSON, headers y mensajes de error.
+- Probar también casos incorrectos, como datos faltantes o IDs inexistentes, para comprobar el manejo de errores.
 Si la API requiere autenticación, configurar en Postman los tokens o credenciales correspondientes.
 
 
