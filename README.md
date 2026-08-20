@@ -35,10 +35,10 @@ Es recomendable usar nombres en plural para las URIs de colecciones porque sigue
 8. ¿Cuáles son los métodos HTTP principales utilizados en una API REST y cuál es la función de cada uno?
 
 Los metodos principales en una API REST son: 
--GET: lee o consulta información de un recurso. No modifica los datos.
--POST: Crea un recurso nuevo en el servidor.
--PUT: Reemplaza por completo un recurso existente o lo crea si no existe.
--DELETE: Borra un recurso específico del servidor.
+- GET: lee o consulta información de un recurso. No modifica los datos.
+- POST: Crea un recurso nuevo en el servidor.
+- PUT: Reemplaza por completo un recurso existente o lo crea si no existe.
+- DELETE: Borra un recurso específico del servidor.
 
 9. Describe la diferencia entre los métodos POST y PUT.
 
